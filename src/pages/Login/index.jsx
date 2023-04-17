@@ -3,7 +3,7 @@ import "../../utils/dark"
 import "./styles.css";
 import "../../components/Global/index"
 import "../../components/Dark/index"
-import animacao from "../../assets/img/devs.svg"
+import animacao from "../../assets/img/anima.svg"
 
 
 
@@ -58,7 +58,6 @@ function App() {
         </div>
         <div className="container-animacao">
           <img src={animacao} className="foto-animacao" />
-            {/* <h3 className="saudacao-animacao">Olá Dev!!!</h3> */}
         </div>
       </div>
     </div>
